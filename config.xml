@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+      <name short='MU app'>Machakos university students' app</name>
+    <description>This app will help Machakos university students get materials easily</description>
+    <author email="michaelnjuguna184@gmail.com" href="https://michael-njuguna.netlify.app/">
+        Michael Njuguna
+    </author>
+    <!-- status bar -->
+     <preference name="StatusBarOverlaysWebView" value="true" />
+      <preference name="StatusBarBackgroundColor" value="#0d6efd" />
+      <!-- splash screen -->
+      <splash src='res/screen/android/splash.PNG'/>
+        <preference name="AutoHideSplashScreen" value="true" />
+          <preference name="SplashScreenDelay" value="3000" />
+           <preference name="FadeSplashScreen" value="true"/>
+             <preference name="FadeSplashScreenDuration" value="1000"/>
+             <preference name="SplashShowOnlyFirstTime" value="false" />
+             <!-- splash screen spinner -->
+               <preference name="ShowSplashScreenSpinner" value="true"/>
+               <preference name="SplashScreenSpinnerColor" value="#212529" />
+               <!-- app icon -->
+                   <icon src="res/screen/android/icon.png" />
+                   <!-- first page -->
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>

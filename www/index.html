@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+  <!-- icon css -->
+  <link rel="stylesheet" href="icons/css/all.css" />
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!--main section  -->
+  <section class="main-section bg-dark">
+    <!-- header -->
+    <header class="header bg-primary">Machakos Uni Student's App</header>
+    <!-- container for buttons -->
+    <section class="container">
+      <!-- links -->
+      <div class="main-btn">
+        <a href="http://portal.mksu.ac.ke/login/sign-in">
+          <button class="portal-btn btn btn-primary btn-lg">
+            <i class="fa-solid fa-circle-user"></i> Portal </button></a>
+      </div>
+      <div class="main-btn">
+        <a href="https://app.myloft.xyz/user/login?institute=ckr5vwlknc6vq09275xy44c17"><button
+            class="library-btn btn btn-primary btn-lg">
+            <i class="fa-solid fa-book"></i> Library </button></a>
+      </div>
+      <div class="main-btn">
+        <a href="http://ir.mksu.ac.ke/">
+          <button class="revision-btn btn btn-primary btn-lg">
+            <i class="fa-solid fa-book-open-reader"></i> Revision </button></a>
+      </div>
+      <div class="main-btn">
+        <a href="https://elearning.mksu.ac.ke/mksu.lms/">
+          <button class="lms-btn btn btn-primary btn-lg" onclick="openLms()">
+            <i class="fa-solid fa-laptop"></i> LMS </button></a>
+      </div>
+      <div class="main-btn">
+        <a href="https://drive.google.com/file/d/1toVxXD2PgeLFL1Q6rj94i-ZJbvkRJkOv/view">
+          <button class="btn-table btn btn-primary btn-lg">
+            <i class="fa-solid fa-table"></i>  T/Table </button></a>
+      </div>
+      <div class="main-btn">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-dollar-sign"></i> Fees
+          </button>
+          <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a class="dropdown-item" href="https://www.mksu.ac.ke/feesstructures2019/">
+                <button class="govfees-btn btn btn-outline-primary">
+                  GSSP
+                </button></a>
+            </li>
+            <li>
+              <a class="dropdown-item"
+                href="https://www.mksu.ac.ke/notices/fee-structures-undergraduate-pssp-students/">
+                <button class="prifees-btn btn btn-outline-primary">
+                  PSSP
+                </button></a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://www.mksu.ac.ke/tvet-fee-structures/">
+                <button class="tvet-btn btn btn-outline-primary">
+                  TVET
+                </button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer bg-primary">
+      Made with <i class="fa-solid fa-heart"></i> By
+      <a href="https://michael-njuguna.netlify.app/">Mike</a>
+    </footer>
+  </section>
+  <!-- bootstrap scripts -->
+  <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  <!-- icon scripts -->
+  <script src="icons/js/all.js"></script>
+  <!--app scripts  -->
+</body>
+
+</html>

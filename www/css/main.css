@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "merriweather";
+  src: url(../fonts/Merriweather/Merriweather-Black.ttf);
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.main-section {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.main-section .header {
+  color: white;
+  font-family: merriweather;
+  font-size: 2rem;
+  height: 10vh;
+  padding-top: 5vh;
+  padding-left: 20px;
+  width: 100vw;
+}
+
+.main-section .container {
+  height: 80vh;
+  padding: 20px;
+  width: 100vw;
+}
+
+.main-section .container .main-btn {
+  display: inline-block;
+  font-family: merriweather;
+  margin: 1rem 0;
+  margin-top: 10%;
+  width: 48%;
+}
+
+.main-section .container .main-btn button {
+  font-size: 2rem;
+  width: 90%;
+}
+
+.main-section .footer {
+  bottom: 0;
+  color: white;
+  font-family: merriweather;
+  font-size: 1rem;
+  height: 10vh;
+  padding: 20px;
+  position: absolute;
+  width: 100vw;
+}
+
+.main-section .footer svg {
+  color: red;
+}
+
+.main-section .footer a {
+  color: white;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=main.css.map */
