@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.michael.machakos" version="2.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <name short="mksu app">MKSU Comrades app</name>
+    <description>This mobile application will help Machakos university students get university information and other
+        materials easily.</description>
+    <author email="michaelnjuguna184@gmail.com" href="https://michael-njuguna-developer.netlify.app/">
+        Michael Njuguna
+    </author>
+    <splash src="res/screen/android/splash.png" />
+    <icon src="res/screen/android/icon.png" />
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="AutoHideSplashScreen" value="true" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="500" />
+    <preference name="SplashScreenBackgroundColor" value="#0D6EFD" />
+    <preference name="StatusBarBackgroundColor" value="#0D6EFD" />
+    <preference name="StatusBarStyle" value="lightcontent" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
+    <preference name="SplashScreenSpinnerColor" value="#F8F9FA" />
+</widget>

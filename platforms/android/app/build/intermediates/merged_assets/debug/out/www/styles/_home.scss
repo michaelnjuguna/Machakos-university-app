@@ -1,0 +1,13 @@
+// home buttons
+.home-content {
+    height: 100%;
+    padding-top: 1rem;
+
+    .btn-container {
+        padding-left: $mainPadding;
+
+        a {
+            font-family: $mainFont;
+        }
+    }
+}

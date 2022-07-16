@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "lato",sans-serif;
+  src: url(../fonts/Lato/Lato-Black.ttf);
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 62.5%;
+  min-height: 100vw;
+  width: 100vw;
+}
+
+body .main-container {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.header {
+  padding-left: 5%;
+  width: 100vw;
+  position: static;
+  z-index: 2;
+}
+
+.header .greetings {
+  color: #f8f9fa;
+  font-family: "lato", sans-serif;
+  font-weight: 500;
+  letter-spacing: .3rem;
+  padding: 1rem 0 .5rem 0;
+}
+
+.header .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: .5rem;
+}
+
+.header .title h1 {
+  color: #f8f9fa;
+  font-family: "lato", sans-serif;
+  text-align: left;
+  padding-left: 0;
+}
+
+.header .title .user-control {
+  padding-right: 1rem;
+}
+
+.home-content {
+  height: 100%;
+  padding-top: 1rem;
+}
+
+.home-content .btn-container {
+  padding-left: 1rem;
+}
+
+.home-content .btn-container a {
+  font-family: "lato", sans-serif;
+}
+
+.user-control .hambuger {
+  background-color: transparent;
+  border: none;
+}
+
+.user-control .hambuger .ham {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  margin-bottom: 0.3rem;
+}
+
+.main-navbar {
+  position: absolute;
+  right: 1rem;
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 5;
+  padding: 0.8rem;
+  border-radius: 4px;
+  top: 7.5rem;
+  -webkit-box-shadow: -2px 6px 14px 1px #262626;
+          box-shadow: -2px 6px 14px 1px #262626;
+}
+
+.main-navbar a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding-left: 0.5rem;
+}
+
+.display-nav {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,11 @@
+// font family
+@font-face {
+    font-family: "lato",sans-serif;
+    src: url(../fonts/Lato/Lato-Black.ttf);
+    font-style: normal;
+}
+
+$mainFont:"lato",sans-serif;
+$light-color:#f8f9fa;
+$blue-color:#0d6efd;
+$mainPadding:1rem;

@@ -1,0 +1,35 @@
+    // header
+    .header {
+        //  min-height: 20vh;
+          padding-left: 5%;
+          width: 100vw;
+          position: static;
+          z-index: 2;
+  
+          .greetings {
+              color: $light-color;
+              font-family: $mainFont;
+              font-weight: 500;
+              letter-spacing: .3rem;
+              padding: 1rem 0 .5rem 0;
+          }
+  
+          .title {
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              padding-bottom: .5rem;
+  
+              h1 {
+                  color: $light-color;
+                  font-family: $mainFont;
+                  text-align: left;
+                  padding-left: 0;
+              }
+  .user-control{
+      padding-right: 1rem;
+  }
+             
+          }
+      }
+  

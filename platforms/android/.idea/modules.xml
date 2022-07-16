@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MKSU_Comrades_app.iml" filepath="$PROJECT_DIR$/.idea/modules/MKSU_Comrades_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CordovaLib/MKSU_Comrades_app.CordovaLib.iml" filepath="$PROJECT_DIR$/.idea/modules/CordovaLib/MKSU_Comrades_app.CordovaLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CordovaLib/MKSU_Comrades_app.CordovaLib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/CordovaLib/MKSU_Comrades_app.CordovaLib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CordovaLib/MKSU_Comrades_app.CordovaLib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CordovaLib/MKSU_Comrades_app.CordovaLib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CordovaLib/MKSU_Comrades_app.CordovaLib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/CordovaLib/MKSU_Comrades_app.CordovaLib.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MKSU_Comrades_app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MKSU_Comrades_app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MKSU_Comrades_app.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MKSU_Comrades_app.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MKSU_Comrades_app.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MKSU_Comrades_app.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/MKSU_Comrades_app.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/MKSU_Comrades_app.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

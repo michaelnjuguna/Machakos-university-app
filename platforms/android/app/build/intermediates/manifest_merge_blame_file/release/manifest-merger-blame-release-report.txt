@@ -1,0 +1,75 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.michael.machakos"
+4    android:hardwareAccelerated="true"
+5    android:versionCode="20004"
+6    android:versionName="2.0.4" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+13        android:anyDensity="true"
+13-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+14        android:largeScreens="true"
+14-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+15        android:normalScreens="true"
+15-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+16        android:resizeable="true"
+16-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+17        android:smallScreens="true"
+17-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+18        android:xlargeScreens="true" />
+18-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+20-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+21
+22    <application
+22-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:5:5-12:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] C:\Users\Admin\.gradle\caches\transforms-3\09314801a92bc2d84a1fe4a156efb7a9\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+24        android:hardwareAccelerated="true"
+24-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+25        android:icon="@mipmap/ic_launcher"
+25-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:5:53-87
+26        android:label="@string/app_name"
+26-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:5:88-120
+27        android:supportsRtl="true" >
+27-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:5:121-147
+28        <activity
+28-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+29            android:name="com.michael.machakos.MainActivity"
+29-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:6:229-256
+30            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
+30-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:6:19-135
+31            android:exported="true"
+31-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:6:136-159
+32            android:label="@string/activity_name"
+32-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:6:160-197
+33            android:launchMode="singleTop"
+33-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:6:198-228
+34            android:theme="@style/Theme.AppCompat.NoActionBar"
+34-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:6:257-307
+35            android:windowSoftInputMode="adjustResize" >
+35-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:6:308-350
+36            <intent-filter android:label="@string/launcher_name" >
+36-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+36-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+37                <action android:name="android.intent.action.MAIN" />
+37-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+37-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+39-->J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+40            </intent-filter>
+41        </activity>
+42    </application>
+43
+44</manifest>

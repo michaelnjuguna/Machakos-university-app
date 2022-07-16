@@ -1,0 +1,23 @@
+-- Merging decision tree log ---
+manifest
+ADDED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml:20:1-22:12
+INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml:20:1-22:12
+INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml:20:1-22:12
+	package
+		ADDED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml:21:7-35
+		INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml
+		INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml
+	android:versionName
+		ADDED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml:21:36-61
+	xmlns:android
+		ADDED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml:20:11-69
+	android:versionCode
+		ADDED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml:21:62-85
+uses-sdk
+INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml
+INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml
+		ADDED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml
+		INJECTED from J:\projects\Machakos university app\machakos university app version 1.0.2\Development folder\platforms\android\CordovaLib\AndroidManifest.xml
