@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.michael.machakos" version="2.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+     <name short="mksu app">mksu Comrades app</name>
+    <description>This mobile application will help Machakos university students get university information and other
+        materials easily.</description>
+    <author email="michaelnjuguna184@gmail.com" href="https://michael-njuguna-developer.netlify.app/">
+        Michael Njuguna
+    </author>
+    <!-- splash screen  -->
+    <splash src="res/screen/android/splash.png" />
+        <preference name="AutoHideSplashScreen" value="true" />
+        <preference name="SplashScreenDelay" value="3000" />
+        <preference name="FadeSplashScreen" value="true" />
+        <preference name="FadeSplashScreenDuration" value="500" />
+        <preference name="SplashScreenBackgroundColor" value="#0D6EFD"/>
+        <!-- status bar -->
+        <preference name="StatusBarOverlaysWebView" value="false" />
+          <preference name="StatusBarBackgroundColor" value="#0D6EFD" />
+            <preference name="StatusBarStyle" value="lightcontent" />
+            <!-- icon -->
+              <icon src="res/screen/android/icon.png" />
+              <!-- spinner -->
+                <preference name="ShowSplashScreenSpinner" value="true"/>
+                  <preference name="SplashScreenSpinnerColor" value="#F8F9FA"/>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+</widget>
