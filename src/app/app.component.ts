@@ -5,6 +5,19 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+  getTime(){
+    let d = new Date().getHours();
+    let greetings;
+    if(d<12){
+      greetings = "Good Morning";
+    }else if(d<18){
+      greetings = "Good afternoon"
+    }else{
+      greetings = "Good Evening"
+    }
+   return greetings;
+  }
+  
   public appPages = [
     { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
     { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
