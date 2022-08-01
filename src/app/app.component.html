@@ -7,20 +7,22 @@
           <ion-note>Get university materials without struggle.</ion-note>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
-            <ion-item routerDirection="root" [routerLink]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
-              <ion-icon slot="start" [ios]="p.icon + '-outline'" [md]="p.icon + '-sharp'"></ion-icon>
+            <ion-item routerDirection="root" [href]="[p.url]" lines="none" detail="false" routerLinkActive="selected">
+              <ion-icon slot="start"  [md]="p.icon" color="primary"></ion-icon>
               <ion-label>{{ p.title }}</ion-label>
             </ion-item>
           </ion-menu-toggle>
         </ion-list>
+<!-- share button -->
+<ion-item color="primary" button="true" lines="none"><ion-icon slot="start" name="share-social-sharp" color="light"></ion-icon> Share</ion-item>
 
         <ion-list id="labels-list">
           <ion-list-header>Labels</ion-list-header>
 
           <ion-item *ngFor="let label of labels" lines="none">
             <ion-icon slot="start" ios="bookmark-outline" md="bookmark-sharp"></ion-icon>
-            <ion-label>{{ label }}</ion-label>
-          </ion-item>
+            <ion-label >{{ label }}</ion-label>
+          </ion-item> 
         </ion-list>
       </ion-content>
     </ion-menu>
