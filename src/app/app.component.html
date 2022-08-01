@@ -3,7 +3,7 @@
     <ion-menu contentId="main-content" type="overlay">
       <ion-content >
         <ion-list  id="inbox-list">
-          <ion-list-header>{{getTime()}}</ion-list-header>
+          <ion-list-header>{{getTime()}}.</ion-list-header>
           <ion-note>Get university materials without struggle.</ion-note>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
@@ -17,13 +17,15 @@
 <ion-item color="primary" button="true" lines="none"><ion-icon slot="start" name="share-social-sharp" color="light"></ion-icon> Share</ion-item>
 
         <ion-list id="labels-list">
-          <ion-list-header>Labels</ion-list-header>
+          <ion-list-header class="whatsapp-header">Whatsapp Groups.</ion-list-header>
+          <ion-note>Contact us to add more groups.</ion-note>
 
-          <ion-item *ngFor="let label of labels" lines="none">
-            <ion-icon slot="start" ios="bookmark-outline" md="bookmark-sharp"></ion-icon>
-            <ion-label >{{ label }}</ion-label>
+          <ion-item *ngFor="let label of labels" [href]="[label.url]" lines="none">
+            <ion-icon slot="start"  md="logo-whatsapp" color="primary"></ion-icon>
+            <ion-label >{{ label.title }}</ion-label>
           </ion-item> 
         </ion-list>
+        <ion-item href="https://web.facebook.com/groups/1591817791051184" lines="none"><ion-icon slot="start" name="logo-facebook" color="primary"></ion-icon> Facebook Group</ion-item>
       </ion-content>
     </ion-menu>
     <ion-router-outlet id="main-content"></ion-router-outlet>
