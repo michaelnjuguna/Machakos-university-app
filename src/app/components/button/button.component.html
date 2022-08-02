@@ -1,3 +1,7 @@
-<p>
-  button works!
-</p>
+<ion-item *ngFor="let buttonInfo of buttonInfos">
+
+  <ion-item class="main-btn" color="primary" expand="block" expand="full" size="default" strong="true" button="true"   detail="true" >
+    <ion-icon slot="start"  md="{{buttonInfo.icon}}" color="light"></ion-icon>
+    <ion-label color="light">{{buttonInfo.title}}</ion-label>
+  </ion-item> 
+</ion-item>
