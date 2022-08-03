@@ -1,10 +1,22 @@
 import { Component } from '@angular/core';
+import { Share } from '@capacitor/share'
 @Component({
   selector: 'app-root',
   templateUrl: 'app.component.html',
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+ //share with buddies
+ shareLink(){
+   Share.share({
+    title: 'MKSU Students app',
+    text: 'The best app to get university materials such as exam papers etc.',
+    url: 'https://play.google.com/store/apps/details?id=com.michael.machakos&gl=US',
+    dialogTitle: 'Share with your fellow classmates',
+  });
+  
+ } 
+  //time function
   getTime() {
     let d = new Date().getHours();
     let greetings;
