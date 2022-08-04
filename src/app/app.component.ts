@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+//share plugin
 import { Share } from '@capacitor/share'
 @Component({
   selector: 'app-root',

@@ -1,5 +1,5 @@
 
-  <ion-item *ngFor="let buttonInfo of buttonInfos" class="main-btn" color="primary" expand="block" expand="full" size="small" strong="true" button="true" lines="none"  detail="true" >
+  <ion-item   (click)="openLink(buttonID)" *ngFor="let buttonInfo of buttonInfos" class="main-btn" color="primary" expand="block" expand="full" size="small" strong="true" button="true" lines="none"  detail="true" >
     <ion-icon slot="start"  md="{{buttonInfo.icon}}" color="light"></ion-icon>
-    <ion-label color="light">{{buttonInfo.title}}</ion-label>
+    <ion-label #buttonID name="[buttonInfo.title]" color="light">{{buttonInfo.title}}</ion-label>
   </ion-item> 
