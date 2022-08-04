@@ -62,5 +62,6 @@ export class AppComponent {
     { title: 'CU brothers', url: 'https://chat.whatsapp.com/FuB8ibckWQcGe9IHdejFf4' },
     { title: 'KWAMU', url: 'https://chat.whatsapp.com/JwSHFoB37iw46w0CAdAOIo' },
   ];
-  constructor() {}
+  constructor() {
+  }
 }
