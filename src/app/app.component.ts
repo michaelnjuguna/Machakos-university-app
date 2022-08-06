@@ -43,6 +43,11 @@ export class AppComponent {
       icon: 'globe-sharp',
     },
     {
+      title: 'Review us',
+      url: 'https://play.google.com/store/apps/details?id=com.michael.machakos',
+      icon: 'star-half-sharp',
+    },
+    {
       title: '+254 735 247 939',
       url: 'tel:+254 735 247 939',
       icon: 'Call-sharp',
