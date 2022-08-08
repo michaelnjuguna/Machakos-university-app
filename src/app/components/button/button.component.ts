@@ -59,28 +59,32 @@ export class ButtonComponent implements OnInit {
 
   //open url in browser
   openLink(buttonID) {
+    //getting the buttons
     var btnName = buttonID.el.textContent;
-    if (btnName.includes('Portal') === true) {
-      Browser.open({ url: this.buttonInfos[0].url, toolbarColor: '#3880FF' });
-    } else if (btnName.includes('Exam bank') === true) {
-      Browser.open({ url: this.buttonInfos[1].url, toolbarColor: '#3880FF' });
-    } else if (btnName.includes('E-Learning LMS') === true) {
-      Browser.open({ url: this.buttonInfos[2].url, toolbarColor: '#3880FF' });
+    //toolbar color in inappbrowser
+    var barColor="#3880FF"
+    
+    if (btnName.includes(this.buttonInfos[0].title) === true) {
+      Browser.open({ url: this.buttonInfos[0].url, toolbarColor: barColor });
+    } else if (btnName.includes(this.buttonInfos[1].title) === true) {
+      Browser.open({ url: this.buttonInfos[1].url, toolbarColor: barColor });
+    } else if (btnName.includes(this.buttonInfos[2].title) === true) {
+      Browser.open({ url: this.buttonInfos[2].url, toolbarColor: barColor });
     }
-     else if (btnName.includes('University news') === true) {
-      Browser.open({ url: this.buttonInfos[3].url, toolbarColor: '#3880FF' });
-    } else if (btnName.includes('Upcoming events') === true) {
-      Browser.open({ url: this.buttonInfos[4].url, toolbarColor: '#3880FF' });
-    } else if (btnName.includes('GSSP Fees Structures') === true) {
-      Browser.open({ url: this.buttonInfos[5].url, toolbarColor: '#3880FF' });
-    } else if (btnName.includes('PSSP Fees Structures') === true) {
-      Browser.open({ url: this.buttonInfos[6].url, toolbarColor: '#3880FF' });
-    } else if (btnName.includes('TVET Fees Structures') === true) {
-      Browser.open({ url: this.buttonInfos[7].url, toolbarColor: '#3880FF' });
-    } else if (btnName.includes('Postgraduate Fees Structures') === true) {
-      Browser.open({ url: this.buttonInfos[8].url, toolbarColor: '#3880FF' });
+     else if (btnName.includes(this.buttonInfos[3].title) === true) {
+      Browser.open({ url: this.buttonInfos[3].url, toolbarColor: barColor });
+    } else if (btnName.includes(this.buttonInfos[4].title) === true) {
+      Browser.open({ url: this.buttonInfos[4].url, toolbarColor: barColor });
+    } else if (btnName.includes(this.buttonInfos[5].title) === true) {
+      Browser.open({ url: this.buttonInfos[5].url, toolbarColor: barColor });
+    } else if (btnName.includes(this.buttonInfos[6].title) === true) {
+      Browser.open({ url: this.buttonInfos[6].url, toolbarColor: barColor });
+    } else if (btnName.includes(this.buttonInfos[7].title) === true) {
+      Browser.open({ url: this.buttonInfos[7].url, toolbarColor: barColor });
+    } else if (btnName.includes(this.buttonInfos[8].title) === true) {
+      Browser.open({ url: this.buttonInfos[8].url, toolbarColor: barColor });
     } else {
-      Browser.open({ url: this.buttonInfos[0].url, toolbarColor: '#3880FF' });
+      Browser.open({ url: this.buttonInfos[0].url, toolbarColor: barColor });
     }
   }
   constructor() {}
