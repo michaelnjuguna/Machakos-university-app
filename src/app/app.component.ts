@@ -43,7 +43,7 @@ export class AppComponent {
       icon: 'globe-sharp',
     },
     {
-      title: 'Review us',
+      title: 'Rate us on playstore',
       url: 'https://play.google.com/store/apps/details?id=com.michael.machakos',
       icon: 'star-half-sharp',
     },
