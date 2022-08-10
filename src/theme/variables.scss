@@ -4,14 +4,19 @@
 /** Ionic CSS Variables **/
 :root {
   // university colors
-  
     --ion-color-uniColor: #2E3091;
     --ion-color-uniColor-rgb:46, 48, 145;
     --ion-color-uniColor-contrast: #ffffff;
     --ion-color-uniColor-contrast-rgb: 255, 255, 255;
     --ion-color-uniColor-shade: #262877;
     --ion-color-uniColor-tint: #33359c;
-  
+  // white color
+    --ion-color-white: #f4f5f8;
+  --ion-color-white-rgb: 244, 245, 248;
+  --ion-color-white-contrast: #f4f5f8;
+  --ion-color-white-contrast-rgb: 244, 245, 248;
+  --ion-color-white-shade: #d7d8da;
+  --ion-color-white-tint: #f5f6f9;
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -251,4 +256,13 @@
   --ion-color-contrast-rgb: var(--ion-color-uniColor-contrast-rgb);
   --ion-color-shade: var(--ion-color-uniColor-shade);
   --ion-color-tint: var(--ion-color-uniColor-tint);
+}
+// adding the white color
+.ion-color-white {
+  --ion-color-base: var(--ion-color-white);
+  --ion-color-base-rgb: var(--ion-color-white-rgb);
+  --ion-color-contrast: var(--ion-color-white-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-white-contrast-rgb);
+  --ion-color-shade: var(--ion-color-white-shade);
+  --ion-color-tint: var(--ion-color-white-tint);
 }
