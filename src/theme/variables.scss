@@ -3,6 +3,15 @@
 
 /** Ionic CSS Variables **/
 :root {
+  // university colors
+  
+    --ion-color-uniColor: #2E3091;
+    --ion-color-uniColor-rgb:46, 48, 145;
+    --ion-color-uniColor-contrast: #ffffff;
+    --ion-color-uniColor-contrast-rgb: 255, 255, 255;
+    --ion-color-uniColor-shade: #262877;
+    --ion-color-uniColor-tint: #33359c;
+  
   /** primary **/
   --ion-color-primary: #3880ff;
   --ion-color-primary-rgb: 56, 128, 255;
@@ -233,4 +242,13 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+//adding the color uniColor
+.ion-color-uniColor {
+  --ion-color-base: var(--ion-color-uniColor);
+  --ion-color-base-rgb: var(--ion-color-uniColor-rgb);
+  --ion-color-contrast: var(--ion-color-uniColor-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-uniColor-contrast-rgb);
+  --ion-color-shade: var(--ion-color-uniColor-shade);
+  --ion-color-tint: var(--ion-color-uniColor-tint);
 }

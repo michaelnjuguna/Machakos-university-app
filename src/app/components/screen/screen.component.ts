@@ -12,7 +12,7 @@ export class ScreenComponent implements OnInit {
     //status bar settings
     StatusBar.setStyle({ style: Style.Default });
     StatusBar.setOverlaysWebView({ overlay: false });
-    StatusBar.setBackgroundColor({color:'#3880FF'});
+    StatusBar.setBackgroundColor({color:'#2E3091'});
     
   }
 

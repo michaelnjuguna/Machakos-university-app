@@ -11,7 +11,7 @@ export class AppComponent {
  shareLink(){
    Share.share({
     title: 'MKSU Students app',
-    text: 'The best app to get university materials such as exam papers etc.',
+    text: 'Get machakos university education materials without a lot of struggle.',
     url: 'https://play.google.com/store/apps/details?id=com.michael.machakos&gl=US',
     dialogTitle: 'Share with your fellow classmates',
   });

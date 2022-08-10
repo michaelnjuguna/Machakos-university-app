@@ -62,7 +62,7 @@ export class ButtonComponent implements OnInit {
     //getting the buttons
     var btnName = buttonID.el.textContent;
     //toolbar color in inappbrowser
-    var barColor="#3880FF"
+    var barColor="#2E3091"
     
     if (btnName.includes(this.buttonInfos[0].title) === true) {
       Browser.open({ url: this.buttonInfos[0].url, toolbarColor: barColor });
