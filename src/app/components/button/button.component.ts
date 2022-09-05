@@ -55,15 +55,19 @@ export class ButtonComponent implements OnInit {
       icon: 'wallet-sharp',
       url: 'https://www.mksu.ac.ke/postgraduate-fees/',
     },
+    {
+      title:'HELB Account',
+      icon:'card-sharp',
+      url:'https://studentportal.helb.co.ke/auth/signin'
+    },
   ];
 
   //open url in browser
   openLink(buttonID) {
     //getting the buttons
-    var btnName = buttonID.el.textContent;
+    const btnName = buttonID.el.textContent;
     //toolbar color in inappbrowser
-    var barColor="#2E3091"
-    
+    const barColor='#2E3091';
     if (btnName.includes(this.buttonInfos[0].title) === true) {
       Browser.open({ url: this.buttonInfos[0].url, toolbarColor: barColor });
     } else if (btnName.includes(this.buttonInfos[1].title) === true) {
@@ -83,7 +87,10 @@ export class ButtonComponent implements OnInit {
       Browser.open({ url: this.buttonInfos[7].url, toolbarColor: barColor });
     } else if (btnName.includes(this.buttonInfos[8].title) === true) {
       Browser.open({ url: this.buttonInfos[8].url, toolbarColor: barColor });
-    } else {
+    }else if (btnName.includes(this.buttonInfos[9].title) === true) {
+      Browser.open({ url: this.buttonInfos[9].url, toolbarColor: barColor });
+    }
+     else {
       Browser.open({ url: this.buttonInfos[0].url, toolbarColor: barColor });
     }
   }
